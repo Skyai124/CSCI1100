@@ -1,0 +1,126 @@
+/*  
+    Author:	Skyai Betsill, Aurora Liles, Joshua Belfield	
+    Date: 11-18-2025			
+    Last rev: 12-1-2025
+    Purpose: CSS for Subway Smurfs website
+*/
+.banner {
+  width: 100%; 
+  padding: 2px; 
+  background-color: #333; 
+  text-align: center; 
+}
+
+.banner-name {
+  font-size: 2.5em; 
+  color: white;
+  font-weight: bold; 
+  margin: 0; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    background-color: #fffdfb;
+    color: #000;
+    line-height: 1.6;
+}
+
+h2 {
+    font-weight: bold;
+    text-align: center;
+    margin: 1.5em 0 1em;
+}
+
+h3 {
+    text-align: center;
+}
+
+hr {
+    width: 20%;
+    border: none;
+    height: 2px;
+    background-color: rgb(176, 174, 174);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fdfff0 ;
+    position: sticky;   
+    top: 0;
+    width: 100%;
+    height: 60px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+    z-index: 100;
+}
+
+nav > a {
+    color: #3c6a38;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 0 20px;
+    transition: all 0.15s;
+}
+
+nav > a:hover,
+nav > a.active {
+    color: #3c6a38;
+    border-bottom: 2px solid #3c6a38;
+}
+
+.container {
+    position: relative;
+    top: 3rem;
+    margin: 20px auto;
+    max-width: 900px;
+    min-width: 320px;
+    padding: 0 20px;
+}
+
+.inner {
+    background-color: #fff;
+    box-shadow: 8px 8px 12px rgba(0,0,0,0.2);
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+p {
+    padding: 0.8em 1em;
+    text-indent: 2em;
+}
+
+.float-left {
+    float: left;
+    height: 250px;
+    margin: 0 1rem 1rem 0;
+    border-radius: 4px;
+}
+
+.float-right {
+    float: right;
+    height: 250px;
+    margin: 0 0 1rem 1rem;
+    border-radius: 4px;
+}
+
+.center-block {
+    display: block;
+    position: relative;
+    width: 500px;
+    max-width: 90%;
+    margin: 0 auto;
+    border-radius: 6px;
+}
+
+.quote {
+    font-style: italic;
+    color: #5c6e0c;
+    text-align: center;
+}
