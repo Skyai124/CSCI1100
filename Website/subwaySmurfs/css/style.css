@@ -168,3 +168,20 @@ p {
 .staff p {
     margin: 0;
 }
+
+[type="text"],
+select {
+	display: block;
+	height: 20px;
+	padding: 5px;
+	font-size: 1.2rem;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+label {
+	display: block;
+	text-align: center;
+}
