@@ -124,3 +124,28 @@ p {
     color: #5c6e0c;
     text-align: center;
 }
+
+.staff {
+    width: 60%;                 
+    margin: 40px auto;          
+    padding: 20px;
+    background: #f8f8f8;
+    border-radius: 10px;
+
+    display: flex;              
+    align-items: center;        
+    gap: 15px;                  
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.staff img {
+    width: 200px;               
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.staff p {
+    margin: 0;
+}
