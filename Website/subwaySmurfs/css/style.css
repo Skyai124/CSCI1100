@@ -18,6 +18,20 @@
   margin: 0; 
 }
 
+.footer {
+  width: 100%; 
+  background-color: #333; 
+  text-align: center; 
+  position: fixed;
+  bottom: 0;
+}
+
+.footer-text {
+  color: white;
+  padding: 0px;
+  line-height: 12px;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -27,6 +41,11 @@ body {
     background-color: #fffdfb;
     color: #000;
     line-height: 1.6;
+}
+
+.bgImage {
+    background-image: url("../images/forestcabin.jpg");
+    background-size: cover;
 }
 
 h2 {
