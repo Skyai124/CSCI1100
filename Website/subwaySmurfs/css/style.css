@@ -197,3 +197,10 @@ label {
 	display: block;
 	text-align: center;
 }
+
+.btn-div {
+	display: flex;
+	justify-content: center;
+	width: 350px;
+	margin: auto;
+}
